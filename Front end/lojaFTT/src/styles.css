@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-boxS;
+}
+
+::after,
+::before {
+    padding: 0px;
+    margin: 0px;
+}
+
+.gridLayout {
+    display: grid;
+    grid-template-columns: 1fr 960px 1fr;
+}
+
+.gridContainer {
+    display: grid;
+    grid-column: 2 / 3;
+}
+
+@media only screen and (max-width: 960px) {
+    
+    .gridLayout {
+        grid-template-columns: 1fr;
+    }
+
+    .gridContainer {
+        grid-column: 1 / 1;
+    }
+
+}

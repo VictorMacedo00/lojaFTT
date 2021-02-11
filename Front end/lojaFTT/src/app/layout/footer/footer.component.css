@@ -1,0 +1,30 @@
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 40px;
+    background-color: #6a68ec;
+    color: #ffffff;
+    bottom: 0px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerFooter {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menuHamburguer button {
+    display: none;
+}
+
+.btnHamburguer {
+    display: none;
+}

@@ -1,0 +1,84 @@
+/* Header */
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    background-color: #6a68ec;
+    color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuBar ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menuBar ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.menuBar ul li:hover {
+    font-size: 1.1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.logoBar p a {
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 0.12rem;
+}
+
+.menuBar {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Responsisvidade */
+
+@media only screen and (max-width: 960px) {
+
+    .menuBar {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px 5px;
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: #ffffff;
+        display: block;
+        border-radius: 5px;
+    }
+
+    #bar1 {
+        transform: translateY(-4px);
+    }
+
+    #bar3 {
+        transform: translateY(4px);
+    }
+
+}
